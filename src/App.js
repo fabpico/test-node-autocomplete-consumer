@@ -1,11 +1,13 @@
 import React from "react";
-import {FooComponent} from '@fabpico/test-node-autocomplete-library/dist/components';
 
 function App() {
-    // try to autocomplete-import FooComponent that resides in '@fabpico/test-node-autocomplete-library/dist/components'
-    return <div>
-        <FooComponent/>
-    </div>;
+    /**
+     * Try to autocomplete/autoimport components FooComponent, Add24, TrashCan24,
+     * which are exported in '@fabpico/test-node-autocomplete-library/dist/index.js'
+     */
+    return <>
+
+    </>;
 }
 
 export default App;
